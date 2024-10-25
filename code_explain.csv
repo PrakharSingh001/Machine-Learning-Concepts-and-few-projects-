@@ -1,0 +1,91 @@
+code,explanations
+"print(""Hello World"")",Print statement
+print(5),Print statement
+print(True),Print statement
+print(3.14),Print statement
+"print(""Hello"", ""World"")",Print statement
+"print(""Result:"", 5 + 3)",Print statement
+"print(""Name:"", name)",Print statement
+"print(""Items:"", lst)",Print statement
+"print(""Sum:"", sum(lst))",Print statement
+"print(""Length:"", len(lst))",Print statement
+a = 5,Assign variable
+"name = ""John""",Assign variable
+is_active = True,Assign variable
+pi = 3.14,Assign variable
+"numbers = [1, 2, 3]",Assign variable
+"user_info = {""name"": ""Alice"", ""age"": 30}",Assign variable
+"x, y = 10, 20",Assign variable
+total = sum(numbers),Assign variable
+is_valid = x > y,Assign variable
+result = None,Assign variable
+a = 5 + 3,Math operation
+b = 10 - 2,Math operation
+c = 4 * 2,Math operation
+d = 16 / 4,Math operation
+e = 5 % 2,Math operation
+f = 2 ** 3,Math operation
+g = (3 + 2) * 2,Math operation
+h = 7 // 3,Math operation
+i = abs(-5),Math operation
+"j = round(3.14159, 2)",Math operation
+if x > y:,Conditional check
+if a == b:,Conditional check
+if not is_active:,Conditional check
+if age >= 18:,Conditional check
+"if name == ""Alice"":",Conditional check
+if user and password:,Conditional check
+if total > 100:,Conditional check
+if x < y:,Conditional check
+if a != b:,Conditional check
+if not is_valid:,Conditional check
+"my_list = [1, 2, 3]",List operation
+my_list.append(4),List operation
+my_list.pop(),List operation
+my_list.remove(2),List operation
+my_list.sort(),List operation
+my_list.reverse(),List operation
+length = len(my_list),List operation
+sum_values = sum(my_list),List operation
+max_value = max(my_list),List operation
+min_value = min(my_list),List operation
+"my_set = {1, 2, 3}",Set operation
+my_set.add(4),Set operation
+my_set.remove(2),Set operation
+"union_set = my_set.union({5, 6})",Set operation
+"intersection_set = my_set.intersection({2, 3})",Set operation
+difference_set = my_set.difference({2}),Set operation
+my_set.clear(),Set operation
+"is_subset = {1, 2}.issubset(my_set)",Set operation
+is_superset = my_set.issuperset({1}),Set operation
+set_length = len(my_set),Set operation
+"my_dict = {""name"": ""Alice"", ""age"": 30}",Dict operation
+"my_dict[""email""] = ""alice@example.com""",Dict operation
+"del my_dict[""age""]",Dict operation
+keys = my_dict.keys(),Dict operation
+values = my_dict.values(),Dict operation
+items = my_dict.items(),Dict operation
+"name = my_dict.get(""name"")",Dict operation
+"age = my_dict.pop(""age"")",Dict operation
+"my_dict.update({""city"": ""New York""})",Dict operation
+my_dict.clear(),Dict operation
+for i in range(10):,Loop operation
+while x < 10:,Loop operation
+for item in my_list:,Loop operation
+for key in my_dict:,Loop operation
+"for char in ""hello"":",Loop operation
+"for i, val in enumerate(my_list):",Loop operation
+"for a, b in zip(lst1, lst2):",Loop operation
+while True:,Loop operation
+for n in set(my_set):,Loop operation
+"for k, v in my_dict.items():",Loop operation
+"my_str = ""hello""",String operation
+upper_str = my_str.upper(),String operation
+lower_str = my_str.lower(),String operation
+title_str = my_str.title(),String operation
+str_len = len(my_str),String operation
+char = my_str[0],String operation
+substr = my_str[1:3],String operation
+"replaced_str = my_str.replace('h', 'j')",String operation
+str_split = my_str.split(),String operation
+"joined_str = ""-"".join([""a"", ""b"", ""c""])",String operation
